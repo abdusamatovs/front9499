@@ -3,139 +3,264 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-black">
+
+  <body>
     <header>
-      <div>
-        <div class="bg-black flex justify-between items-center px-10 py-3">
-          <img src="./img/Group 33.svg" alt="" />
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img src="img/log.svg" alt="logo" />
+          </div>
 
-          <nav>
-            <ul class="flex justify-between gap-10 items-center">
+          <div class="links">
+            <ul>
               <li>
-                <p class="text-red-400">Services</p>
+                <a href="#">Pricing</a>
               </li>
 
               <li>
-                <p class="text-white">About</p>
+                <a href="#">About</a>
               </li>
 
               <li>
-                <p class="text-white">Contacts</p>
+                <a href="#">Contact</a>
               </li>
             </ul>
-          </nav>
+
+            <div class="head-btn">
+              <button class="rose-btn">Schedule a Demo</button>
+            </div>
+          </div>
+
+          <div class="burger-menu">
+            <img src="img/burger.svg" alt="" />
+          </div>
         </div>
       </div>
     </header>
 
-    <section class="flex justify-center py-10">
-      <img src="./img/image 168.svg" alt="" />
-    </section>
+    <main>
+      <section id="bir">
+        <div class="container">
+          <div class="bir-content">
+            <div class="bir-left">
+              <h1 class="text">
+                Start building with our APIs for absolutely free.
+              </h1>
 
-    <section class="flex justify-between gap-10 px-20">
-      <div
-        class="w-full flex justify-center items-center bg-orange-300 p-10 rounded-lg"
-      >
-        <div>
-          <img src="./img/image 162.svg" alt="" />
-          <p class="text-black text-5xl text-center font-bold">SEO</p>
-        </div>
-      </div>
-      <div
-        class="w-full flex justify-center items-center bg-orange-300 p-10 rounded-lg"
-      >
-        <div>
-          <img src="./img/image 161.svg" alt="" />
-          <p class="text-black text-5xl text-center font-bold">Development</p>
-        </div>
-      </div>
-    </section>
+              <div class="left-inp">
+                <input
+                  class="left-email"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter email address"
+                />
 
-    <section class="flex p-10 justify-between gap-10 px-20">
-      <div
-        class="w-full flex justify-center items-center bg-orange-500 p-10 rounded-lg"
-      >
-        <div>
-          <img src="./img/image 164.svg" alt="" />
-          <p class="text-black text-5xl text-center font-bold">Context</p>
-        </div>
-      </div>
-      <div
-        class="w-full flex justify-center items-center bg-orange-300 p-10 rounded-lg"
-      >
-        <div>
-          <img src="./img/image 165.svg" alt="" />
-          <p class="text-black text-5xl text-center font-bold">SERM</p>
-        </div>
-      </div>
-    </section>
+                <button class="rose-btn">Schedule a Demo</button>
+              </div>
 
-    <section class="flex justify-between gap-10 px-20">
-      <div
-        class="w-full flex justify-center items-center bg-orange-300 p-10 rounded-lg"
-      >
-        <div>
-          <img src="./img/image 166.svg" alt="" />
-          <p class="text-black text-5xl text-center font-bold">CRM</p>
+              <div class="bir-link">
+                Have any questions? <span>Contact Us</span>
+              </div>
+            </div>
+
+            <div class="bir-right">
+              <div class="right-img">
+                <img src="img/iphonw.svg" alt="iphone" />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div
-        class="w-full flex justify-center items-center bg-orange-500 p-10 rounded-lg"
-      >
-        <div>
-          <img src="./img/image 167.svg" alt="" />
-          <p class="text-black text-5xl text-center font-bold">Web Scraping</p>
+      </section>
+
+      <section id="second">
+        <div class="container">
+          <div class="parent">
+            <div class="second">
+              <h3 class="second-text">Who we work with</h3>
+              <p class="second-title">
+                Today, millions of people around the world have successfully
+                connected their accounts to apps they love using our API. We
+                provide developers with the tools they need to create easy and
+                accessible experiences for their users.
+              </p>
+              <button class="second-button">About Us</button>
+            </div>
+
+            <div class="img-Box">
+              <div class="img-ox">
+                <div class="img3">
+                  <img
+                    class="second-img"
+                    src="./img/Combined Shape 2.svg"
+                    alt=""
+                  />
+                  <img
+                    class="second-img"
+                    src="./img/Combined Shape 3.svg"
+                    alt=""
+                  />
+                  <img
+                    class="second-img"
+                    src="./img/Combined Shape 5.svg"
+                    alt=""
+                  />
+
+                  <img class="second-img" src="./img/Shape 2.svg" alt="" />
+                  <img
+                    class="second-img"
+                    src="./img/Combined Shape 4.svg"
+                    alt=""
+                  />
+                  <img
+                    class="second-img"
+                    src="./img/Combined Shape 6.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="px-14 m-7">
-      <div class="w-full h-22 rounded-md bg-orange-500">
-        <p
-          class="text-white text-center py-2 font-medium text-4xl rounded-full"
-        >
-          Click here
-        </p>
-      </div>
-    </section>
+      <section id="third">
+        <div class="container">
+          <div class="dad">
+            <div class="third">
+              <img class="third-img" src="./img/Group 14.svg" alt="" />
+            </div>
 
-    <section class="px-14 m-7">
-      <div class="bg-orange-500 h-90 rounded-md w-full flex gap-11">
-        <div class="my-6 mx-10">
-          <img class="rounded-l-xl" src="./img/image 160.svg" alt="" />
+            <div class="text-parent">
+              <h3 class="third-text">Easy to implement</h3>
+              <p class="third-title">
+                Our API comes with just a few lines of code. You’ll be up and
+                running in no time. We built our documentation page to integrate
+                payments functionality with ease.
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="my-6">
-          <p class="text-2xl">
-            51 Rue du Savior 7th Floor,<br />
-            Ebene Cybercity Reduit 72201, <br />
-            Mauritius
-          </p>
-          <p class="text-2xl py-3">sales@goose.mu</p>
+      <section id="fourth">
+        <div class="container">
+          <div class="fouth">
+            <div class="great">
+              <h3 class="great-text">Simple UI & UX</h3>
+              <p class="great-title">
+                Our pre-built form is easy to integrate in your app or website’s
+                checkout flow and designed to optimize conversion.
+              </p>
+            </div>
+
+            <div class="box">
+              <img class="box-img" src="./img/Group 2 Copy 4.svg" alt="" />
+              <img class="box-img" src="/img/Group 38.svg" alt="" />
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <footer class="bg-[#202124] px-10 py-3">
-      <div class="flex items-center gap-14">
-        <img src="./img/Group 33.svg" alt="" />
-        <p class="text-white">Services</p>
-        <p class="text-white">About</p>
-        <p class="text-white">Сontacts</p>
+      <section id="fifth">
+        <div class="container">
+          <div class="fifth">
+            <div class="grup">
+              <ul class="nav-item">
+                <li class="nav-title">
+                  <img class="nav-img" src="./img/Group 17.svg" alt="" />
+                  <h5 class="nav-text">Personal Finances</h5>
+                  <p class="nav-2">
+                    Consolidate financial data from multiple sources and
+                    categorize transactions up to 2 years of history. Analyze
+                    reports to reconcile activities in your account.
+                  </p>
+                </li>
 
-        <div class="flex px-80 gap-6">
-          <img src="./icon/Instagram_Glyph_Black 1.svg" alt="" />
-          <img src="./icon/Twitter Original _.svg" alt="" />
+                <li class="nav-title">
+                  <img class="nav-img" src="./img/Group 18.svg" alt="" />
+                  <h5 class="nav-text">Banking & Coverage</h5>
+                  <p class="nav-2">
+                    With our platform, you can speed up account onboarding and
+                    support ongoing payments for checking, savings, credit card,
+                    and brokerage accounts.
+                  </p>
+                </li>
+
+                <li class="nav-title">
+                  <img class="nav-img" src="./img/Group 19.svg" alt="" />
+                  <h5 class="nav-text">Consumer Payments</h5>
+                  <p class="nav-2">
+                    It’s easier to set up secure bank payments with us through a
+                    flow designed with the user experience in mind. Customers
+                    could instantly authenticate their account.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="mx--24">
-          <p class="text-gray-400">
-            © 2023 Goose Group <br />
-            Privacy policy
-          </p>
+      <section id="sixth">
+        <div class="container">
+          <div class="sixth">
+            <div class="cow">
+              <h3 class="cow-text">Ready to start?</h3>
+
+              <div class="left-inp">
+                <input
+                  class="left-email"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter email address"
+                />
+
+                <button class="rose-btn">Schedule a Demo</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="foter">
+      <div class="container">
+        <div class="cool">
+          <div class="footer">
+            <img src="./img/Group 21 (1).svg" alt="" />
+          </div>
+
+          <div class="link">
+            <ul>
+              <li>
+                <a class="link-text" href="#">Pricing</a>
+              </li>
+
+              <li>
+                <a class="link-text" href="#">About</a>
+              </li>
+
+              <li>
+                <a class="link-text" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="icons">
+            <i class="bx bxl-facebook-square" style="color: #ffffff"></i>
+            <i class="bx bxl-twitter" style="color: #ffffff"></i>
+            <i class="bx bxl-linkedin-square" style="color: #ffffff"></i>
+          </div>
         </div>
       </div>
     </footer>
